@@ -1,0 +1,17 @@
+
+/* Variable */
+:root{
+
+    --green: #a9c2aa;
+    --greenD: #607a68;
+    --greenL:#87a985;
+    --greenLL: #ccd9ac;
+    --greenUl: #E0ebcf;
+    --White: #f0f2f0;
+    --brown:#E9DFD5;
+}
+
+body{
+    background-color:var(--brown);
+    font-family: "Lato", sans-serif;
+}
