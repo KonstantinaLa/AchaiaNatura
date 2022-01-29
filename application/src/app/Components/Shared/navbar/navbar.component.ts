@@ -21,8 +21,6 @@ export class NavbarComponent implements OnInit {
 
   openNav(e: Event) {
     this.showNav = true; 
-    this.element = document.getElementById('navbar') as HTMLElement;
-    this.element.style.transitionDelay = "2s";
   }
 
   closeNav(e: Event) {
