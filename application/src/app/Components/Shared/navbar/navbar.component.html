@@ -1,25 +1,20 @@
-<nav class="navbar navbarColor navbar-expand-lg navbar-expand-sm navbar-expand-md navbar-expand-xl" >
-  <div class="container-fluid" (clickOutside)="closeNav($event)">
-
-    <a class="navbar-brand logo pl-5" href="http://localhost:4200">AchaiaNatura</a>
-    <div class="pr-5">
-
-      <div class="form-inline">
-        <a class="language">EN</a>
-        
-        <div class="hamburger" (click)="openNav($event)">
-          <div class="bar1"></div>
-          <div class="bar2"></div>
-          <div class="bar3"></div>
-        </div>
-
-        <div *ngIf="showNav" id="navbar" class="sidenav">
-          <a (click)="closeNav($event)" class="closebtn">&times;</a>
-          <a href="#">ΑΡΧΙΚΗ</a>
-          <a href="#">ΣΥΧΝΕΣ ΕΡΩΤΗΣΕΙΣ</a>
-          <a href="#">ΕΠΙΚΟΙΝΩΝΙΑ</a>
-        </div>
+<div class="fixed-top">
+  <div (clickOutside)="closeNav($event)">
+      <a class=" navbar-brand logo" href="http://localhost:4200">Achaia Natura</a>
+       
+      <div class="hamburger float-right navbar-brand" (click)="openNav($event)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
       </div>
+
+      <a class="float-right language navbar-brand">EN</a>
+
+    <div *ngIf="showNav" id="navbar" class="sidenav">
+      <a (click)="closeNav($event)" class="closebtn">&times;</a>
+      <a href="#">ΑΡΧΙΚΗ</a>
+      <a href="#">ΣΥΧΝΕΣ ΕΡΩΤΗΣΕΙΣ</a>
+      <a href="#">ΕΠΙΚΟΙΝΩΝΙΑ</a>
     </div>
   </div>
-</nav>
+</div>

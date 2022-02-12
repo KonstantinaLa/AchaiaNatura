@@ -3,41 +3,43 @@
     font-family: "Lato", sans-serif;
   }
 
-.navbarColor{
-    background-color:var(--greenD);
-    color:var(--White);
-}
+  li{
+    list-style: none;
+  }
 
 .logo{
-    color: var(--White);
+    color:black;
     font-size: 30px;
+    padding-left:2% ;
+    margin-left: 1rem;
 }
 .logo:hover{
-    color: var(--greenLL);
+    color: var(--greenD);
     transition: all 0.5s linear;
 }
 
 .hamburger {
   display: inline-block;
   cursor: pointer;
+  padding-right:2%;
 }
 
 .bar1, .bar2, .bar3 {
   width: 40px;
   height: 5px;
   border-radius:25rem;
-  background-color:var(--White);
+  background-color:black;;
   margin: 6px 0;
   transition: 0.4s;
   cursor: pointer;
 }
   
   .language{
-    color: var(--White);
-    padding-right: 50px;
+    color:black;
+    padding-right: 2%;
     font-size: 25px;
     text-decoration: none;
-    }
+  }
 
 .language:hover{
     color: var(--greenLL);
@@ -62,7 +64,7 @@
   z-index: 1;
   top: 0;
   right: 0;
-  background-color: #8c8f6d;
+  background-color: var(--blackTransparent);
   overflow-x: hidden;
   transition: 3s;
   padding-top: 60px;
@@ -95,3 +97,4 @@
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+

@@ -2,16 +2,22 @@
 /* Variable */
 :root{
 
-    --green: #a9c2aa;
-    --greenD: #607a68;
-    --greenL:#87a985;
-    --greenLL: #ccd9ac;
-    --greenUl: #E0ebcf;
+    /* --green: #a9c2aa; */
+    /* --greenD: #607a68; */
+    /* --greenL:#87a985; */
+    /* --greenLL: #ccd9ac; */
+    /* --greenUl: #E0ebcf; */
     --White: #f0f2f0;
-    --brown:#E9DFD5;
+    /* --brown:#E9DFD5; */
+    --brown: #9e7f4f;
+    --cream:#efe2c3;
+    --greenL:#b4bf41;
+    --green:#748e40;
+    --greenD:#263e0e;
+    --blackTransparent:rgba(0, 0, 0, 0.5);
 }
 
 body{
-    background-color:var(--brown);
+    background-color:var(--cream);
     font-family: "Lato", sans-serif;
 }
